@@ -8,6 +8,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "build" : "./node_modules/.bin/babel src --out-dir lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,15 @@
   "bugs": {
     "url": "https://github.com/ab-en3rgy/backend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/ab-en3rgy/backend-project-lvl1#readme"
+  "homepage": "https://github.com/ab-en3rgy/backend-project-lvl1#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "ci": "^2.1.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15"
+  }
 }
