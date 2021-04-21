@@ -8,7 +8,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build" : "./node_modules/.bin/babel src --out-dir lib",
+    "build": "./node_modules/.bin/babel src --out-dir lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,6 +29,9 @@
   "devDependencies": {
     "@babel/cli": "^7.13.14",
     "@babel/core": "^7.13.15",
-    "@babel/preset-env": "^7.13.15"
+    "@babel/preset-env": "^7.13.15",
+    "eslint": "^7.24.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
   }
 }

@@ -9,3 +9,6 @@ publish:
 
 start:
 	brain-games
+
+lint:
+	npx eslint .
