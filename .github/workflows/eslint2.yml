@@ -7,5 +7,6 @@ jobs:
     - uses: actions/checkout@v2
     - name: Install modules
       run: yarn
+    - run: make brain-games
     - name: Run ESLint
       run: eslint . --ext .js,.jsx,.ts,.tsx
