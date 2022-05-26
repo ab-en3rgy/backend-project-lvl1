@@ -25,13 +25,12 @@
     "url": "https://github.com/ab-en3rgy/backend-project-lvl1/issues"
   },
   "homepage": "https://github.com/ab-en3rgy/backend-project-lvl1#readme",
-  "dependencies": {
-    "ci": "^2.1.0",
-    "readline-sync": "^1.4.10"
-  },
   "devDependencies": {
-    "eslint": "^7.24.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1"
+    "eslint": "^8.16.0"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "readline-sync": "^1.4.10"
   }
 }
