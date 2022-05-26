@@ -18,7 +18,6 @@ const logic = (gametask, task) => {
     }
   }
   console.log(`Congratulations ${name}!`);
-  return;
 };
 
 export default logic;

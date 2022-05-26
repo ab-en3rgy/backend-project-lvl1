@@ -9,7 +9,7 @@ export default () => {
     No: 'no',
   };
 
-  const isEven = (number) => number % 2 === 0 ? answerStr.Yes : answerStr.No;
+  const isEven = (number) => (number % 2 === 0 ? answerStr.Yes : answerStr.No);
 
   const task = () => {
     const num = getRandom(100);
