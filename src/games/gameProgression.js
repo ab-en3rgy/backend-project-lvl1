@@ -19,7 +19,7 @@ export default () => {
     const randomPos = getRandom(progression.length - 1);
     const rightAnswer = progression[randomPos];
     progression[randomPos] = '..';
-    console.log(`Question: ${progression}`);
+    console.log(`Question: ${progression.join(' ')}`);
     const answer = question('Your answer:');
     const check = answer.toString() === rightAnswer.toString();
     return [check, rightAnswer, answer];
