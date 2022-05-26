@@ -4,7 +4,7 @@ const logic = (gametask, task) => {
   let successCount = 0;
   console.log('Welcome to the Brain Games!');
   const name = question('May I have your name?');
-  console.log(`Hi ${name}`);
+  console.log(`Hello, ${name}`);
   console.log(gametask);
   while (successCount < 3) {
     const [result, rightAnswer, answer] = task();
